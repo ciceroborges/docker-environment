@@ -1,10 +1,10 @@
 ## Docker Environment - Configuration
 
-1 - Create an .env file with the contents of the .env.example file into it;
+1 - Install docker and docker compose on your OS;
 
-2 - Install docker and docker compose on your OS;
+2 - Shut down all services running on your machine that use the default php/nginx/mysql ports (9000, 80, 3306, etc...);
 
-3 - Shut down all services running on your machine that use the default php/nginx/mysql ports (9000, 80, 3306, etc...);
+3 - Create an .env file with the contents of the .env.example file into it;
 
 4 - Run the command below to compile the "app" service image (php | composer);
 
